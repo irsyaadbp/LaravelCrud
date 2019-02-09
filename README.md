@@ -29,7 +29,7 @@ If you're not in the mood to read, [Laracasts](https://laracasts.com) contains o
 
 ## Getting Started
 
-### Configure Database Setting
+### First, Configure Database Setting
 
 Duplicate file ***.env.example*** to ***.env***
 then change
@@ -42,6 +42,40 @@ DB_USERNAME=homestead
 DB_PASSWORD=secret
 ```
 to your database configuration
+
+### Second, Migrate the database
+
+Just run
+```
+php artisan migrate
+```
+
+### Finally
+
+Open project with
+```
+php artisan serve
+```
+
+Then you get url, and open it to browser
+Or you can use this way
+```
+Change name ***server.php*** to ***index.php***
+```
+Then you can open it, just open the directory to your browser
+If css doesn't load, please add ***public*** to the path css
+
+#### Example
+First css path is :
+```
+{{ asset('/css/bootstrap/bootstrap.min.css') }}
+```
+Replace to :
+```
+{{ asset('public/css/bootstrap/bootstrap.min.css') }}
+```
+
+is not only for css, this way work to any your asset
 
 ## License
 
