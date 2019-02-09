@@ -57,7 +57,7 @@ Open project with
 php artisan serve
 ```
 
-Then you get url, and open it into browser
+Then you get url, and open it to browser
 
 Or you can use this way
 
