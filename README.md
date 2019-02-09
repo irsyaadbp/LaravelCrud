@@ -32,7 +32,7 @@ If you're not in the mood to read, [Laracasts](https://laracasts.com) contains o
 ### First, Configure Database Setting
 
 Duplicate file ***.env.example*** to ***.env***
-then change
+And change
 ```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -75,7 +75,7 @@ Replace to :
 {{ asset('public/css/bootstrap/bootstrap.min.css') }}
 ```
 
-is not only for css, this way work to any your asset
+Is not only for css, this way work to any asset
 
 ## License
 
