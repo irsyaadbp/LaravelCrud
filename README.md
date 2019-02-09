@@ -65,12 +65,12 @@ Change name ***server.php*** to ***index.php***
 Then you can open it, just open the directory to your browser
 If css doesn't load, please add ***public*** to the path css
 
-#### Example
-First css path is :
+#### Example :
+First css path is
 ```
 {{ asset('/css/bootstrap/bootstrap.min.css') }}
 ```
-Replace to :
+Replace to
 ```
 {{ asset('public/css/bootstrap/bootstrap.min.css') }}
 ```
