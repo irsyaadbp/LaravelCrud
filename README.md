@@ -31,7 +31,7 @@ If you're not in the mood to read, [Laracasts](https://laracasts.com) contains o
 
 ### First, Configure Database Setting
 
-Duplicate file ***.env.example*** to ***.env***
+Duplicate file `.env.example` to `.env`
 And change
 ```
 DB_CONNECTION=mysql
@@ -61,11 +61,11 @@ Then you get url, and open it to browser
 
 Or you can use this way
 
-Change name ***server.php*** to ***index.php***
+Change name `server.php` to `index.php`
 
 Then you can open it, just open the directory to your browser
 
-If css doesn't load, please add ***public*** to the path css
+If css doesn't load, please add **public** to the path css
 
 #### Example :
 First css path is
